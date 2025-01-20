@@ -6,10 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		47983E1028A3061C00E18970 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47983E0F28A3061C00E18970 /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		47983E0A28A3061C00E18970 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,8 +19,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		47983E0C28A3061C00E18970 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
-		47983E0F28A3061C00E18970 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4787D90E2D37B4AD00240F2B /* 002.Add Two Numbers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "002.Add Two Numbers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4787D90F2D37E89F00240F2B /* 003.Longest Substring Without Repeating Characters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "003.Longest Substring Without Repeating Characters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		47B09D502D36EFAF00D07021 /* 008.String to Integer (atoi).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "008.String to Integer (atoi).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		47B09D532D36F10100D07021 /* 013.Roman to Integer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "013.Roman to Integer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		47B9369B2D36F3F30010825E /* 001.Two Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "001.Two Sum.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		47B9369F2D3700B20010825E /* 007.Reverse Integer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "007.Reverse Integer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		47B936A12D3701EC0010825E /* 009.Palindrome Number.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "009.Palindrome Number.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		47B936A22D3703BD0010825E /* 014.Longest Common Prefix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "014.Longest Common Prefix.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		47DE58052D3E65D100B298F5 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DE58062D3E661A00B298F5 /* 021.Merge Two Sorted Lists.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "021.Merge Two Sorted Lists.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,25 +45,33 @@
 		47983E0328A3061C00E18970 = {
 			isa = PBXGroup;
 			children = (
-				47983E0E28A3061C00E18970 /* LeetCode */,
-				47983E0D28A3061C00E18970 /* Products */,
+				47AB01032D3D255B003F7636 /* In Progress */,
+				47AB01012D3D2546003F7636 /* Done */,
+				47DE58052D3E65D100B298F5 /* LeetCode */,
 			);
 			sourceTree = "<group>";
 		};
-		47983E0D28A3061C00E18970 /* Products */ = {
+		47AB01012D3D2546003F7636 /* Done */ = {
 			isa = PBXGroup;
 			children = (
-				47983E0C28A3061C00E18970 /* LeetCode */,
+				47B9369B2D36F3F30010825E /* 001.Two Sum.playground */,
+				4787D90E2D37B4AD00240F2B /* 002.Add Two Numbers.playground */,
+				47B9369F2D3700B20010825E /* 007.Reverse Integer.playground */,
+				47B09D502D36EFAF00D07021 /* 008.String to Integer (atoi).playground */,
+				47B936A12D3701EC0010825E /* 009.Palindrome Number.playground */,
+				47B09D532D36F10100D07021 /* 013.Roman to Integer.playground */,
+				47B936A22D3703BD0010825E /* 014.Longest Common Prefix.playground */,
+				47DE58062D3E661A00B298F5 /* 021.Merge Two Sorted Lists.playground */,
 			);
-			name = Products;
+			path = Done;
 			sourceTree = "<group>";
 		};
-		47983E0E28A3061C00E18970 /* LeetCode */ = {
+		47AB01032D3D255B003F7636 /* In Progress */ = {
 			isa = PBXGroup;
 			children = (
-				47983E0F28A3061C00E18970 /* main.swift */,
+				4787D90F2D37E89F00240F2B /* 003.Longest Substring Without Repeating Characters.playground */,
 			);
-			path = LeetCode;
+			path = "In Progress";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,7 +91,7 @@
 			);
 			name = LeetCode;
 			productName = LeetCode;
-			productReference = 47983E0C28A3061C00E18970 /* LeetCode */;
+			productReference = 47DE58052D3E65D100B298F5 /* LeetCode */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +118,7 @@
 				Base,
 			);
 			mainGroup = 47983E0328A3061C00E18970;
-			productRefGroup = 47983E0D28A3061C00E18970 /* Products */;
+			productRefGroup = 47983E0328A3061C00E18970;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -120,7 +132,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47983E1028A3061C00E18970 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
