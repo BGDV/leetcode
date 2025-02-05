@@ -8,22 +8,8 @@ class Solution {
         
         var temp = Set<Character>()
         
-        
-        
-        
-        
         repeat {
-//            for index in startIndex..<s.count {
-//                if !temp.contains(s.) {
-//                    
-//                    
-//                    
-//                }
-//                
-//                
-//            }
-            temp.removeAll()
-            startIndex += 1
+
         } while startIndex != s.count-1
                     
 
