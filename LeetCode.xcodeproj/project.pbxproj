@@ -27,8 +27,9 @@
 		47B9369F2D3700B20010825E /* 007.Reverse Integer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "007.Reverse Integer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		47B936A12D3701EC0010825E /* 009.Palindrome Number.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "009.Palindrome Number.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		47B936A22D3703BD0010825E /* 014.Longest Common Prefix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "014.Longest Common Prefix.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		47DE58052D3E65D100B298F5 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = LeetCode; path = "/Users/bgdv/-=BGDV=-/BGDV.project/SELF/LeetCode/LeetCodeMain/build/Debug/LeetCode"; sourceTree = "<absolute>"; };
 		47DE58062D3E661A00B298F5 /* 021.Merge Two Sorted Lists.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "021.Merge Two Sorted Lists.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		47F242562D53EEFC0005CA6B /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F242572D53EF350005CA6B /* 028.Find the Index of the First Occurrence in a String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "028.Find the Index of the First Occurrence in a String.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		47FD324E2D3E8DF1006E6EB9 /* 026.Remove Duplicates from Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "026.Remove Duplicates from Sorted Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -48,6 +49,7 @@
 			children = (
 				47AB01032D3D255B003F7636 /* In Progress */,
 				47AB01012D3D2546003F7636 /* Done */,
+				47F242562D53EEFC0005CA6B /* LeetCode */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +65,7 @@
 				47B936A22D3703BD0010825E /* 014.Longest Common Prefix.playground */,
 				47DE58062D3E661A00B298F5 /* 021.Merge Two Sorted Lists.playground */,
 				47FD324E2D3E8DF1006E6EB9 /* 026.Remove Duplicates from Sorted Array.playground */,
+				47F242572D53EF350005CA6B /* 028.Find the Index of the First Occurrence in a String.playground */,
 			);
 			path = Done;
 			sourceTree = "<group>";
@@ -92,7 +95,7 @@
 			);
 			name = LeetCode;
 			productName = LeetCode;
-			productReference = 47DE58052D3E65D100B298F5 /* LeetCode */;
+			productReference = 47F242562D53EEFC0005CA6B /* LeetCode */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
