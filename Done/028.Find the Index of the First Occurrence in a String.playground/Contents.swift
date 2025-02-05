@@ -1,5 +1,6 @@
 import Foundation
 
+// MARK: 0 ms
 class Solution {
     func strStr(_ haystack: String, _ needle: String) -> Int {
         var result = -1
