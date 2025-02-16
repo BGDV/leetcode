@@ -22,7 +22,6 @@ class Solution {
 let numbers = [1]
 let target = 1
 
-
 Solution().searchInsert(numbers, target)
 
 
