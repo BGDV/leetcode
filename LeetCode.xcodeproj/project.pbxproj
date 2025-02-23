@@ -19,6 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		47457D4D2D6B567200339DEA /* 088.Merge Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "088.Merge Sorted Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		47827F2D2D662ADF000BB659 /* 058.Length of Last Word.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "058.Length of Last Word.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4787D90E2D37B4AD00240F2B /* 002.Add Two Numbers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "002.Add Two Numbers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		47B09D502D36EFAF00D07021 /* 008.String to Integer (atoi).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "008.String to Integer (atoi).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -78,6 +79,7 @@
 				47B230DD2D62345E00F99992 /* 035.Search Insert Position.playground */,
 				47827F2D2D662ADF000BB659 /* 058.Length of Last Word.playground */,
 				47D3F3062D6A1AEA00220B9C /* 083.Remove Duplicates from Sorted List.playground */,
+				47457D4D2D6B567200339DEA /* 088.Merge Sorted Array.playground */,
 			);
 			path = Done;
 			sourceTree = "<group>";
